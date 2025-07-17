@@ -6,11 +6,37 @@ public class Test {
         System.out.println("Greetings");
         System.out.println(69+69);
         System.out.println(60*100);
-        String name ="PDSingh";
-        int num =2345;
+        
+   
+        // final is used instead of const in java to declare a constant variable
+    
+        // Variable types
+
+        // Integer
+        int num=123;
+
+        // Double 
+
+        double kool= 4.69;
+        
+        // Boolean
+
+        boolean makeKoolAid = true;
+
+        // Char
+
+        char intial='P';
+
+        // String
+
+        String name="PDSingh";
         System.out.println(name);
         System.out.println(num*num);
-        // final is used instead of const in java to declare a constant variable
+        System.out.println(kool);
         
+        if(makeKoolAid=true){
+            System.out.println(intial);
+            System.out.println(makeKoolAid);
+        }
     }
 }
