@@ -3,5 +3,14 @@ public class Test {
     public static void main(String[] args) {
         System.out.println("Hello from test.java!");
         System.out.println("testing if this updates directly on github");
+        System.out.println("Greetings");
+        System.out.println(69+69);
+        System.out.println(60*100);
+        String name ="PDSingh";
+        int num =2345;
+        System.out.println(name);
+        System.out.println(num*num);
+        // final is used instead of const in java to declare a constant variable
+        
     }
 }
