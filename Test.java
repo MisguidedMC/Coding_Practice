@@ -2,11 +2,14 @@ import java.util.Scanner;
 public class Test {
    
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner cin = new Scanner(System.in);
 
         System.out.println("Hello from test.java!");
-        System.out.println("Can u enter your age!!");
-        int age = scanner.nextInt();
+       
+        
+            System.out.println("Can u enter your age!!");
+            int age = cin.nextInt();
+
         System.out.println("This yo age: "+ age);
         System.out.println("testing if this updates directly on github");
         System.out.println("Greetings");
@@ -59,6 +62,6 @@ public class Test {
     
         System.out.println("This is the area of a imaginary object: " + area );
 
-        scanner.close();  
+        cin.close();  
     }
 }
