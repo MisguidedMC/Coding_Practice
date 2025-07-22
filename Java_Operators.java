@@ -61,4 +61,28 @@ public class Java_Operators{
             
         
     }
+    /*
+        Operator	Example	    Same As	    
+        =	        x = 5	    x = 5	
+        +=	        x += 3	    x = x + 3	
+        -=	        x -= 3	    x = x - 3	
+        *=	        x *= 3	    x = x * 3	
+        /=	        x /= 3	    x = x / 3	
+        %=	        x %= 3	    x = x % 3	
+        &=	        x &= 3	    x = x & 3	
+        |=	        x |= 3	    x = x | 3	
+        ^=	        x ^= 3	    x = x ^ 3	
+        >>=	        x >>= 3	    x = x >> 3	
+        <<=	        x <<= 3	    x = x << 3	
+
+     */
+
+     /*
+       Java logical operators 
+        || = or
+        && = and
+        ! = not
+      */
+      
+
 }
