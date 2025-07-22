@@ -1,7 +1,5 @@
-import java.util.Scanner;
 public class Java_Operators{
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         /* Arithemetic Operators
             Symbol      Purpose 
             +           Addition
@@ -13,27 +11,54 @@ public class Java_Operators{
          */
 
 
-        // int add;
-        // int sub;
-        // int mult;
-        // int div;
-        // int incre;
-        // int decre;
+        int add;
+        int sub;
+        int mult;
+        float div;
+        int incre;
+        int decre;
 
-        // int num = 10;
+        int num = 10;
 
-        System.out.println("Please choose a Operator for calculating");
+
         System.out.println(" + = Addition");
+
         System.out.println(" - = Subtraction");
         System.out.println(" * = Multiplication");
         System.out.println(" / = Division");
         System.out.println(" ++ = Increment");
         System.out.println(" -- = Decrement");
 
-        String input = scanner.nextLine();
 
-       
+        add = 10 + 7;
 
-        scanner.close();
+        System.out.println(add);
+
+        sub = 40-24;
+
+        System.out.println(sub);
+
+        mult = 16 * 4; 
+
+        System.out.println(mult);
+
+        div = 69/7.93f;
+
+        System.out.println(div);
+
+
+       while(num >= 0){
+            System.out.println(num);
+            num--;
+          
+       }
+        System.out.println("");
+        while( num <= 10 ){
+            System.out.println(num);
+                    num++;
+                   
+         }
+            
+        
     }
 }
