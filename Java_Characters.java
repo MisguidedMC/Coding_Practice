@@ -14,6 +14,5 @@ public class Java_Characters{
         System.out.println("");
         System.out.println(praise);
 
-        System.out.println("");
     }
 }
