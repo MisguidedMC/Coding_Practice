@@ -15,21 +15,14 @@ public class Java_Operators{
         int sub;
         int mult;
         float div;
-        int incre;
-        int decre;
 
         int num = 10;
-
-
         System.out.println(" + = Addition");
-
         System.out.println(" - = Subtraction");
         System.out.println(" * = Multiplication");
         System.out.println(" / = Division");
         System.out.println(" ++ = Increment");
         System.out.println(" -- = Decrement");
-
-
         add = 10 + 7;
 
         System.out.println(add);
@@ -60,7 +53,7 @@ public class Java_Operators{
          }
             
         
-    }
+    
     /*
         Operator	Example	    Same As	    
         =	        x = 5	    x = 5	
@@ -83,6 +76,6 @@ public class Java_Operators{
         && = and
         ! = not
       */
-      
-
+         
+        }
 }
